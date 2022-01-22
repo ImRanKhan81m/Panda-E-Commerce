@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-section li a{
+    font-weight: 500;
+}
+.bg-pinks{
+    background-color: #feeae9;
+}
+.carousel-section .container{
+    border-radius: 20px;
+}
+.carousel-section h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.carousel-section h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: #ff1365;
+}
+.carousel-section p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4e4e4e;
+}
+.carousel-section .btn{
+    padding: 14px 20px;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.btn-arrow{
+    margin-left: 10px;
+}
+
+/* catagories css */
+.categories h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.catagories-items{
+    border-radius: 10px;
+    color: white;
+    padding: 15px 0 15px 35px;
+}
+.catagories-img img{
+    width: 70%;
+}
+.catagories-content h2{
+    font-size: 36px;
+    font-weight: 500;
+
+}
+.item-one{
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+.item-two{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.item-three{
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+
+
+/* product items css */
+.product-items h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.product-details h3{
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.product-details p{
+    font-size: 16px;
+    line-height: 30px;
+    color:rgba(78, 78, 78, 0.774) ;
+}
+.product-details .btn{
+    padding: 14px 20px;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.item-img img{
+    width: 100%;
+}
+.bg-blue{
+    background: #F4F4F4;
+}
+.product-item{
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 8%);
+}
+
+
+/* submit section css */
+.submit-content{
+    background: 
+    rgba(255, 242, 241, 1);
+    padding: 130px 0;
+    border-radius: 20px;
+}
+.submit-content h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.submit-content input{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+.submit-content input:focus{
+    outline: none;
+}
+.submit-content .btn{
+    padding: 15px 20px;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border: none;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+/* footer section */
+#influencer-footer{
+    background-color:#0A0826 ;
+    padding: 50px 0;
+}
+.influencer-footer-content{
+    text-align: center;
+}
+.influencer-footer-content h2{
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+.influencer-footer-content span,p{
+    color: #D9DBE1;
+    
+}
+.influencer-footer-content span i{
+    padding: 10px 10px;
+    font-size: 20px;
+    color: #FB8200;
+    cursor: pointer;
+    margin-top: 15px;
+    
+}
