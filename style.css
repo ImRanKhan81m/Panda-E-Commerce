@@ -126,16 +126,16 @@ body{
 .submit-content input{
     padding: 15px 20px;
     border: none;
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px;
 }
 .submit-content input:focus{
     outline: none;
 }
 .submit-content .btn{
-    padding: 15px 20px;
+    padding: 15px 30px;
     background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
     border: none;
-    border-radius: 0 10px 10px 0;
+    border-radius:10px;
     color: white;
     font-size: 16px;
     font-weight: 500;
